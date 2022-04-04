@@ -1,0 +1,8 @@
+<div class="card">
+    <h1>{{ title }}</h1>
+    <ul>
+        <li *ngFor="let name of names">{{ name }}</li>
+    </ul>
+    <input type="text" placeholder="enter new name" (keyup.enter)="onAddName()" [(ngModel)]="newName">
+    <button (click)="onAddName()">Add</button>
+</div>
