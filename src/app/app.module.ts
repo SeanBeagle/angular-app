@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { ListCardComponent } from './list-card/list-card.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { NameService } from './services/name.service';
+import { ListCardComponent } from '@shared/components';
+import { NavbarComponent } from '@core/components';
+import { NameService } from '@core/services';
 
 @NgModule({
   declarations: [

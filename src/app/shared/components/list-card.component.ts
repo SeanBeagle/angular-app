@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NameService } from '../services/name.service'
+import { NameService } from '@core/services/name.service'
 
 @Component({
   selector: 'app-list-card',
