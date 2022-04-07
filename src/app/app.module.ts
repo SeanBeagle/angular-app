@@ -1,23 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-
-import { AppComponent } from './app.component';
-import { ListCardComponent } from '@shared/components';
-import { NavbarComponent } from '@core/components';
+import { CoreModule } from '@core/core.module'
 import { NameService } from '@core/services';
+import { AppComponent } from './app.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListCardComponent,
-    NavbarComponent
   ],
   imports: [
     BrowserModule, 
-    FormsModule
+    CoreModule
   ],
-  providers: [NameService],
+  providers: [
+    NameService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

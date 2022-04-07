@@ -1,5 +1,6 @@
-import { ListCardComponent } from "./list-card.component";
+import { ListCardComponent } from "./list-card/list-card.component";
+export * from './list-card/list-card.component';
 
-export const components: any[] = [ListCardComponent];
-
-export * from './list-card.component';
+export const components: any[] = [
+    ListCardComponent
+];

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 
 export class NavbarComponent {
-  title: string = "LabRat"
+  @Input() title: string = "TITLE";
   nav_items = [
     {name: "Samples", href: "#"},
     {name: "People", href: "#"},
