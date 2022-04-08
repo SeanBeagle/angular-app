@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from '@shared/shared.module';
 import { NavbarComponent, FooterComponent, CoreComponent } from '@core/components';
 import { ListCardComponent } from '@shared/components';
+import { ActivityBarComponent } from './components/activity-bar/activity-bar.component';
 
 
 
@@ -11,6 +12,7 @@ import { ListCardComponent } from '@shared/components';
     NavbarComponent,
     FooterComponent,
     CoreComponent,
+    ActivityBarComponent,
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,12 @@
+#app {
+  height: 100vh;
+  background-color: red;
+}
+
+#activity-bar {
+  width: 50px;
+}
+
+#main {
+  background-color: white;
+}

@@ -6,10 +6,10 @@ import { Component, Input } from '@angular/core';
 })
 
 export class NavbarComponent {
-  @Input() title: string = "TITLE";
+  @Input() brand: string = "TITLE";
   nav_items = [
-    {name: "Samples", href: "#"},
-    {name: "People", href: "#"},
-    {name: "Tasks", href: "#"},
+    {name: "File", href: "#"},
+    {name: "Edit", href: "#"},
+    {name: "View", href: "#"},
   ]
 }
