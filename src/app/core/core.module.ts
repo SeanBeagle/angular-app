@@ -4,6 +4,7 @@ import { SharedModule } from '@shared/shared.module';
 import { NavbarComponent, FooterComponent, CoreComponent } from '@core/components';
 import { ListCardComponent } from '@shared/components';
 import { ActivityBarComponent } from './components/activity-bar/activity-bar.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 
 
@@ -17,6 +18,7 @@ import { ActivityBarComponent } from './components/activity-bar/activity-bar.com
   imports: [
     CommonModule,
     SharedModule,
+    FontAwesomeModule
   ],
   exports: [
     CoreComponent,
